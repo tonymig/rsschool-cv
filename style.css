@@ -1,1 +1,49 @@
+body {
+  font-family: "Arial", sans-serif;
+}
 
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: inherit;
+}
+
+#container {
+  max-width: 1024px;
+  margin: auto;
+  background-color: #eae4e4;
+}
+
+header {
+  border: 1px solid #000000;
+}
+
+figcaption {
+  width: 200px;
+  padding: 3px 0;
+  font: italic smaller sans-serif;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#flex-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  padding: 10px;
+  text-align: justify;
+}
+
+.caption {
+  font-weight: bolder;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #000000;
+}
