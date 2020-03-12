@@ -1,5 +1,6 @@
 body {
   font-family: "Arial", sans-serif;
+  /*background-color: #eae4e4; */
 }
 
 a {
@@ -11,16 +12,16 @@ a {
 #container {
   max-width: 1024px;
   margin: auto;
-  background-color: #eae4e4;
+ /* background-color: #eae4e4;*/
 }
 
-header {
+/*header {
   border: 1px solid #000000;
-}
+}*/
 
 figcaption {
   width: 200px;
-  padding: 3px 0;
+  /*padding: 3px 0;*/
   font: italic smaller sans-serif;
   text-align: center;
   color: #ffffff;
@@ -35,7 +36,7 @@ figcaption {
 }
 
 main {
-  padding: 10px;
+  padding: 0 10px;
   text-align: justify;
 }
 
@@ -45,5 +46,5 @@ main {
 
 footer {
   text-align: center;
-  border-top: 1px solid #000000;
+ /* border-top: 1px solid #000000;*/
 }
